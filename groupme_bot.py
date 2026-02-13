@@ -147,8 +147,6 @@ def health():
 def index():
     return (
         "<h2>GroupMe AI Bot is running!</h2>"
-        "<p>Callback URL: <code>POST /callback</code></p>"
-        "<p>Health check: <a href='/health'>/health</a></p>"
     )
 
 
