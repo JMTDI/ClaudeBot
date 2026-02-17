@@ -94,7 +94,7 @@ Head to **[https://app.devpu.sh/](https://app.devpu.sh/)** and log in (or create
 
 ### Step 2 — Connect your repository
 
-Connect your GitHub account and select the **`JMTDI/ClaudeBot`** repository.
+Connect your GitHub account and select this forked repo.
 
 ### Step 3 — Configure Build & Deploy settings
 
@@ -151,7 +151,6 @@ https://your-app-name.devpu.sh/callback
 | Method | Endpoint | Description |
 |---|---|---|
 | `GET` | `/` | Homepage — confirms bot is running |
-| `GET` | `/health` | Health check — returns bot status and config info |
 | `POST` | `/callback` | GroupMe webhook — receives messages and sends AI replies |
 
 ---
